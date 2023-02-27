@@ -98,7 +98,7 @@ async def next_page(bot, query):
              InlineKeyboardButton(f"📃 Pages {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}",
                                   callback_data="pages"),
 InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/ary_bots/2')
-       ]
+       
         )
     elif off_set is None:
         btn.append(

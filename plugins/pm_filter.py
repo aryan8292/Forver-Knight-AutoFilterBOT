@@ -82,6 +82,9 @@ async def next_page(bot, query):
             ]
             for file in files
         ]
+[
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/ary_bots/2')
+        ]
 
     if 0 < offset <= 10:
         off_set = 0
